@@ -1,20 +1,6 @@
 # docker-wkhtmltopdf-aas
-[![License (3-Clause BSD)](https://img.shields.io/badge/license-BSD%203--Clause-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)
-[![Build Status](https://travis-ci.org/leknoppix/docker-wkhtmltopdf-aas.svg?branch=master)](https://travis-ci.org/leknoppix/docker-wkhtmltopdf-aas)
-[![Issue Count](https://codeclimate.com/github/traum-ferienwohnungen/docker-wkhtmltopdf-aas/badges/issue_count.svg)](https://codeclimate.com/github/traum-ferienwohnungen/docker-wkhtmltopdf-aas)
-[![Test Coverage](https://codeclimate.com/github/traum-ferienwohnungen/docker-wkhtmltopdf-aas/badges/coverage.svg)](https://codeclimate.com/github/traum-ferienwohnungen/docker-wkhtmltopdf-aas/coverage)
-[![dependencies Status](https://david-dm.org/traum-ferienwohnungen/docker-wkhtmltopdf-aas/status.svg)](https://david-dm.org/traum-ferienwohnungen/docker-wkhtmltopdf-aas)
-[![](https://images.microbadger.com/badges/image/traumfewo/docker-wkhtmltopdf-aas.svg)](http://microbadger.com/images/traumfewo/docker-wkhtmltopdf-aas)
-[![Known Vulnerabilities](https://snyk.io/test/github/traum-ferienwohnungen/docker-wkhtmltopdf-aas/badge.svg)](https://snyk.io/test/github/traum-ferienwohnungen/docker-wkhtmltopdf-aas)
 
 wkhtmltopdf in a docker container as a rest api web service.
-
-## Live demo
-
-[https://docker-wkhtmltopdf-aas.herokuapp.com](https://docker-wkhtmltopdf-aas.herokuapp.com)<br>
-User: gooduser<br>
-Pass: secretpassword
-
 
 ## Running the service
 
