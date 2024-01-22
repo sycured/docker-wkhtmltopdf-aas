@@ -22,7 +22,7 @@
     "child_process": "^1.0.2",
     "child-process-promise": "^2.2.1",
     "coffeescript": "^2.7.0",
-    "dotenv": "^16.3.1",
+    "dotenv": "^16.3.2",
     "express": "^4.18.2",
     "express-basic-auth": "^1.2.1",
     "express-healthcheck": "^0.1.0",
