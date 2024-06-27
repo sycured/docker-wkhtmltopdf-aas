@@ -22,7 +22,7 @@
     "child_process": "^1.0.2",
     "child-process-promise": "^2.2.1",
     "coffeescript": "^2.7.0",
-    "dotenv": "^16.3.1",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "express-basic-auth": "^1.2.1",
     "express-healthcheck": "^0.1.0",
@@ -44,10 +44,10 @@
     "codeclimate-test-reporter": "^0.5.1",
     "coffee-coverage": "^3.0.1",
     "coffeelint": "^2.1.0",
-    "mocha": "^10.2.0",
-    "npm-check-updates": "^16.14.12",
+    "mocha": "^10.4.0",
+    "npm-check-updates": "^16.14.20",
     "nyc": "^15.1.0",
-    "supertest": "^6.3.3",
+    "supertest": "^6.3.4",
     "textract": "^2.5.0"
   }
 }
