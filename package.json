@@ -47,7 +47,7 @@
     "mocha": "^10.4.0",
     "npm-check-updates": "^16.14.20",
     "nyc": "^15.1.0",
-    "supertest": "^6.3.4",
+    "supertest": "^7.0.0",
     "textract": "^2.5.0"
   }
 }
