@@ -46,7 +46,7 @@
     "coffeelint": "^2.1.0",
     "mocha": "^10.7.3",
     "npm-check-updates": "^16.14.20",
-    "nyc": "^15.1.0",
+    "nyc": "^17.0.0",
     "supertest": "^7.0.0",
     "textract": "^2.5.0"
   }
