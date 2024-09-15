@@ -36,7 +36,7 @@
     "lodash": "^4.17.21",
     "morgan": "^1.10.0",
     "promisepipe": "^3.0.0",
-    "temp-write": "^5.0.0",
+    "temp-write": "^6.0.0",
     "tmp-promise": "^3.0.3"
   },
   "devDependencies": {
