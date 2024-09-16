@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "bluebird": "^3.7.2",
-    "body-parser": "^1.20.2",
+    "body-parser": "^1.20.3",
     "bootprint": "^4.0.4",
     "bootprint-openapi": "^4.0.4",
     "child_process": "^1.0.2",
