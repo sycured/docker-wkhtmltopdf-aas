@@ -25,7 +25,7 @@ app.use helmet()
 app.use '/healthcheck', health()
 app.use '/', express.static(__dirname + '/documentation')
 app.use(basicAuth({
-  users: { [process.env.USER]: process.env.PASS },
+  users: { process.env.USER: process.env.PASS },
   challenge: true,
   realm: 'Restricted Area'
 }))
