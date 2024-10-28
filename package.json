@@ -31,7 +31,7 @@
     "forever": "^4.0.3",
     "fs": "^0.0.1-security",
     "fs-writefile-promise": "^3.0.2",
-    "helmet": "^7.1.0",
+    "helmet": "^8.0.0",
     "http-auth": "^4.2.0",
     "lodash": "^4.17.21",
     "morgan": "^1.10.0",
