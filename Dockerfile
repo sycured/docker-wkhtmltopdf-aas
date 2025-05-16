@@ -1,5 +1,7 @@
 FROM ubuntu:22.04
 
+ARG WKHTML_VERSION=0.12.6.1-3
+
 RUN apt update &&                              \
     apt install -y --no-install-recommends     \
     add-apt-key                                \
@@ -17,8 +19,14 @@ RUN apt update &&                              \
     software-properties-common                 \
     wget                                       \
     xfonts-75dpi                               \
-    xfonts-base                                \
-    wkhtmltopdf
+    xfonts-base
+
+RUN . /etc/os-release \
+    && export WKFILENAME="wkhtmltox_${WKHTML_VERSION}.${VERSION_CODENAME}_$(dpkg --print-architecture).deb" \
+    && apt update \
+    && curl -sOL --output-dir /tmp https://github.com/wkhtmltopdf/packaging/releases/download/${WKHTML_VERSION}/${WKFILENAME} \
+    && apt install -y /tmp/$WKFILENAME \
+    && rm /tmp/$WKFILENAME
 
 RUN mkdir -p /etc/apt/keyrings && curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg &&echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_20.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list && apt update && apt install -y --no-install-recommends nodejs
 
